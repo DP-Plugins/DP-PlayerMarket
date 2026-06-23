@@ -20,7 +20,7 @@ import java.util.UUID;
 
 public final class PlayerMarket extends DPlugin {
     public static PlayerMarket plugin;
-    private static final int BSTATS_ID = 0;
+    private static final int BSTATS_ID = 32172;
 
     public DataContainer<String, MarketListing> listings;
 
