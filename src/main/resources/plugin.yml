@@ -1,0 +1,22 @@
+name: DP-PlayerMarket
+version: 1.0.0
+main: com.darksoldier1404.dppmarket.PlayerMarket
+authors: [ DEAD_POOLIO_ ]
+api-version: 1.20
+depend:
+  - DPP-Core
+commands:
+  market:
+    description: Open the player marketplace.
+    usage: /market
+    aliases: [pm, dpmarket]
+permissions:
+  dpmarket.use:
+    description: Basic marketplace usage.
+    default: true
+  dpmarket.admin:
+    description: Marketplace administration (reload).
+    default: op
+  dpmarket.slot.unlimited:
+    description: Unlimited selling slots.
+    default: false

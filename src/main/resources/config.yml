@@ -1,0 +1,17 @@
+Settings:
+  prefix: "&f[ &eDP-PlayerMarket &f] "
+  Lang: en_US
+Market:
+  tax: 5                 # Seller-paid transaction fee (%)
+  default-slots: 5       # Selling slots when player has no slot permission
+  listing-expire-days: 7 # Days until a listing expires (0 = never expire)
+  min-price: 1           # Minimum listing price
+  max-price: 0           # Maximum listing price (0 = unlimited)
+  expire-check-period-minutes: 60 # How often (minutes) the expiry scheduler runs
+  categories:            # Categories the seller chooses from when listing
+    - Weapons
+    - Armor
+    - Tools
+    - Blocks
+    - Materials
+    - Etc
